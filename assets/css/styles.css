@@ -1,0 +1,70 @@
+*{
+    padding:0;
+    margin:0
+}
+
+body{
+    background-image:url(https://www.desicomments.com/wp-content/uploads/2017/04/Stars-Pic.jpg);
+    height: 100%
+}
+
+h1{
+    text-align:center;
+    font-style:oblique;
+    color:mintcream;
+    font-family: 'Times New Roman';
+    font-size:50px
+}
+
+@media(max-width: 1000px) {
+    h1{
+    color: crimson;
+    font-style:normal
+    }
+}
+
+#map{
+    width: 500px;
+    height: 300px;
+    border-width: 2px;
+    border-style:inset;
+    border-color:darkblue;
+    border-radius:20px;
+}
+
+.parent{
+    /* background-image: url(https://www.desicomments.com/wp-content/uploads/2017/04/Stars-Pic.jpg); */
+    padding:10px;
+    margin:10px;
+    position:relative;
+    min-height:600px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center
+    
+}
+
+.child{
+    margin:10px;
+}
+
+.data{
+    color:burlywood;
+    font-size: 25px
+}
+
+footer{
+    background-color:greenyellow;
+    bottom:0;
+    color:black;
+    font-style:normal;
+    
+    font-size: 1.2rem;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    margin:0;
+    right:0
+}
